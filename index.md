@@ -33,3 +33,8 @@ Bye, box~
 The below is **Update part** write from VSCode:
 
 It is so Cool!
+
+## Lab Report 1 links:
+[Lab Report 1](lab-report-1-week-2.html)
+
+[Lab Report 1](https://jeffyuan2022.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
