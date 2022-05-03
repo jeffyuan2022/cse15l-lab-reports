@@ -12,7 +12,7 @@ Below is a screeshot of the symptom in command line:
 ![Image_symptom_1](add_later)
 
 **The relationship between the bug, the symptom, and the failure-inducing input:**
-This bug is caused by the two empty lines of code that are after the last link (lines 4 and 5). The symptom of this test is that it produces an infinite loop due to the fact that the failure-inducing input causes the program to not check the indexOf output after it finds the very last link in the file.
+Due to the failure-inducing input, that there is one additional empty line (line 5) of code after the last link in the test file, the testing program (MarkdownParse.java) caused a bug that it cannot find the next open bracket after the last link in the test file and it can't end the while loop. So as the symptom, it goes into an infinite loop when running the test.
 
 ## Bug #2:
 Below is a screenshot of code change diff from Github for the second bugs:
