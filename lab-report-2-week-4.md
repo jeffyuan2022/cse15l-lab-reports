@@ -18,7 +18,7 @@ Due to the failure-inducing input, that there is one additional empty line (line
 Below is a screenshot of code change diff from Github for the second bugs:
 ![Image_code_change_2](add_later)
 
-The link to the test file for a failure-inducing input is here: Link
+The link to the test file for a failure-inducing input is here: [Link](https://github.com/jeffyuan2022/markdown-parser/blob/main/test-file3.md)
 
 The symptom of that failure-inducing input is ***Infinite Loop***
 Below is a screeshot of the symptom in command line:
