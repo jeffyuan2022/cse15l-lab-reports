@@ -5,7 +5,7 @@
 Below is a screenshot of code change diff from Github for the first bugs:
 ![Image_code_change_1](add_later)
 
-The link to the test file for a failure-inducing input is here: Link
+The link to the test file for a failure-inducing input is here: [Link](https://github.com/jeffyuan2022/markdown-parser/blob/main/test-file.md)
 
 The symptom of that failure-inducing input is ***Infinite Loop***
 Below is a screeshot of the symptom in command line:
