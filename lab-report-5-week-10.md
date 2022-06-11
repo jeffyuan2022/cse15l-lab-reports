@@ -17,7 +17,7 @@ The expected output: ```[]```
 It turns out that my code (the code on the left in ```vimdiff```) have some bugs that caused the different output than the expected one.
 
 ### Explanation about the **bug**:
-I need to add a test case to make sure that the valid link will contains **no whitespace** inside the parentheses. If there is one or more whitespace inside the parentheses, that parentheses is invalid and will be excluded from the output.
+> I need to add a test case to make sure that the valid link will contains **no whitespace** inside the parentheses. If there is one or more whitespace inside the parentheses, that parentheses is invalid and will be excluded from the output.
 
 ---
 
