@@ -35,4 +35,4 @@ The expected output: `[\(foo\)]`
 It turns out that my code (the code on the left in `vimdiff`) have some bugs that caused the different output than the expected one.
 
 ### Explanation about the **bug**:
-> 
+> I need to add a test case to ignore the open or close parentheses if it is right after a backslash (`\`) so that it will count as contents inside the valided parentheses for a valided link.
