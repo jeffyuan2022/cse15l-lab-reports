@@ -4,17 +4,26 @@ In this lab, we are going to take a look of different results with different mar
 ## Case 1:
 The link to the test file: [487.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/487.md)
 
-I used ```vimdiff``` on the results of running a bash for loop to find the test file with different outputs: ![image_case_1_1]()
+I used ```vimdiff``` on the results of running a bash for loop to find the test file with different outputs: ![image_case_1_1](487_difference.png)
 
-The test file and expected output in VSCode: ![image_case_1_2]()
+The test file and expected output in VSCode: ![image_case_1_2](487_expected.png)
 
-The expected output: ```[\(foo\)]```
+The expected output: ```[]```
+
+It turns out my code (the code on the left in ```vimdiff```) have some bugs that caused the different output than the expected one.
+
+Possible way to fix:
+
 
 ## Case 2:
 The link to the test file: [494.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/494.md)
 
-I used ```vimdiff``` on the results of running a bash for loop to find the test file with different outputs: ![image_case_2_1]()
+I used ```vimdiff``` on the results of running a bash for loop to find the test file with different outputs: ![image_case_2_1](494_difference.png)
 
-The test file and expected output in VSCode: ![image_case_2_2]()
+The test file and expected output in VSCode: ![image_case_2_2](494_expected.png)
 
-The expected output: ```[]```
+The expected output: ```[\(foo\)]```
+
+It turns out my code (the code on the left in ```vimdiff```) have some bugs that caused the different output than the expected one.
+
+Possible way to fix:
