@@ -18,6 +18,7 @@ It turns out that my code (the code on the left in `vimdiff`) have some bugs tha
 
 ### Explanation about the **bug**:
 > I need to add a test case to make sure that the valid link will contains **no whitespace** in between the words inside the parentheses. If there is one or more whitespace in between the words inside the parentheses, that parentheses is invalid and will be excluded from the output.
+> The test case need to add in between line 24 and line 25: ![Image1](Code_Bug.png)
 
 ---
 
