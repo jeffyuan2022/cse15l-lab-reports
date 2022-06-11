@@ -17,7 +17,7 @@ The expected output: `[]`
 It turns out that my code (the code on the left in `vimdiff`) have some bugs that caused the different output than the expected one.
 
 ### Explanation about the **bug**:
-> I need to add a test case to make sure that the valid link will contains **no whitespace** in between the words inside the parentheses. If there is one or more whitespace in between the words inside the parentheses, that parentheses is invalid and will be excluded from the output.
+> I need to add a test case to make sure that the valid link will contains ***no whitespace*** in between the words inside the parentheses. If there is one or more whitespace in between the words inside the parentheses, that parentheses is invalid and will be excluded from the output.
 > The test case need to add in between line 24 and line 25: ![Image1](Code_Bug.png)
 
 ---
@@ -37,3 +37,4 @@ It turns out that my code (the code on the left in `vimdiff`) have some bugs tha
 
 ### Explanation about the **bug**:
 > I need to add a test case to ignore the open or close parentheses if it is right after a backslash (`\`) so that it will count as contents inside the valided parentheses for a valided link.
+> The test case need to add in between line 24 and line 25: ![Image1](Code_Bug.png)
